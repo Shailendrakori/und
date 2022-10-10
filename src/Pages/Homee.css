@@ -1,0 +1,264 @@
+/* Home page css  */
+/* .home-sec-one{
+    background-image: url(../img/homes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size:  100%;
+    position: relative;
+    width: 100%;
+    height: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+  } */
+
+
+/* .inputs {
+  
+  border-radius: 22px !important;
+  border: none !important;
+  background-color: white !important;
+  padding: 0px 90px !important;
+  height: 2.4375em;
+} */
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+ 
+  letter-spacing: inherit !important;
+
+  box-sizing: content-box !important;
+  background-color: white !important;
+  height: 2.4375em !important;
+
+  padding: 1.5px 90px !important;
+  border-radius: 28px;
+}
+.inputs::-webkit-input-placeholder{
+  padding-left: -2px !important;
+  color: black !important;
+}
+
+
+
+/* .filterr-three{
+  position: relative;
+  width: 133px;
+  height: 123px;
+  left: 15px;
+  top: 19px;
+
+  background: rgba(255, 0, 0, 1);
+  border: 15px solid #FFFFFF;
+  filter: blur(70px);
+
+} */
+.filterr {
+
+  position: absolute;
+  width: 133px;
+  height: 133px;
+  left: 15px;
+  top: 179px;
+
+  background: rgba(255, 0, 0, 1);
+  border: 15px solid #FFFFFF;
+  filter: blur(70px);
+
+
+}
+
+.h4-home {
+  /* font-family: 'Nosifer', cursive !important; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 50px;
+  text-transform: capitalize;
+  color: yellow !important;
+}
+
+.text-home {
+
+
+  /* font-family: 'Nosifer'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 29.05px;
+  text-transform: capitalize;
+  width: 200px;
+  color: #D9D9D9;
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
+  
+}
+
+.card-btn-bg {
+  background-color: #555555 !important;
+
+  padding: 3%;
+  text-align: center;
+  border-radius: 360px !important;
+}
+
+.card-btn-bg1 {
+  background-color: #382A24 !important;
+
+  padding: 3%;
+  text-align: center;
+  border-radius: 360px !important;
+}
+
+.button-bg {
+  /* font-family: 'Nosifer', cursive !important; */
+  border-radius: 46px !important;
+  margin-top: 5px !important;
+  /* border: 2px Solid
+   #D9D9D9 !important;  */
+  color: #FFFFFF !important;
+
+}
+
+.button-bg1 {
+  /* font-family: 'Nosifer', cursive !important; */
+  border-radius: 360px !important;
+  border: 2px Solid #25D2F8 !important;
+  color: #25D2F8 !important;
+  background-color: #382A24 !important;
+}
+
+
+/* count css  */
+
+.countt {
+  background: #28282B !important;
+  border: 3px solid #FFD700;
+  border-radius: 27px !important;
+  height: 160px;
+  padding-top: 31px;
+
+}
+
+.count-text {
+
+  
+
+  font-family: 'Inter' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 48px !important;
+  line-height: 58px !important;
+  /* identical to box height */
+
+  text-transform: capitalize !important;
+
+  color: #FFFFFF !important;
+
+}
+
+.countt-text {
+
+  width: 103px !important;
+  height: 29px !important;
+  left: 229px !important;
+  top: 785px !important;
+  font-family: 'Inter' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 19px !important;
+  line-height: 29px !important;
+  /* identical to box height */
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.gaping{
+  /* grid-column-gap: 2px; */
+
+}
+
+/* end count css  */
+ 
+
+
+
+/* game-we-love css */
+
+.card-game-we-love{
+  border-radius: 0px !important;
+  text-align: center !important;
+}
+.game-we-love{
+padding: 9px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+
+
+text-transform: capitalize;
+
+color: #176CEB !important;
+}
+.card-game-gap{
+  grid-column-gap: 80px !important;
+}
+
+/* end game-we-love css */
+
+  .grid-coulumn-gapp{
+    grid-column-gap: 30px;
+  }
+
+
+
+  /* game-proud-sec */
+
+  .game-proud-sec .ellipse2{
+    background-image: url(../img/ellipse2.png) !important;
+     background-size: 7% 100%;
+    background-repeat: no-repeat;
+    min-height: 100px;
+  }
+.game-proud-sec{
+background-image: url(../img/ellipse.png);
+background-size: 40% 80%;
+
+
+background-color: #303235;
+
+/* padding: 10px 90px 0px 90px;  */
+background-position: center;
+background-repeat: no-repeat;
+
+}
+.ellipse3{
+  background-image: url(../img/ellipse3.png) !important;
+  background-size: 7% 100%;
+ background-repeat: no-repeat;
+ height: 100px;
+ min-height: 100px;
+ background-position: right;
+}
+
+/* end game-proud-sec */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end Home page css  */
