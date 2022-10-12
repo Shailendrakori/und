@@ -57,10 +57,10 @@
   position: absolute;
   width: 133px;
   height: 133px;
-  left: 15px;
+  left: 30px;
   top: 179px;
 
-  background: rgba(255, 0, 0, 1);
+  background: rgba(255, 0, 0, 0.527);
   border: 15px solid #FFFFFF;
   filter: blur(70px);
 

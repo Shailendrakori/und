@@ -187,8 +187,6 @@ export const Homes = (props) => {
 
 
 
-
-
                     {/* game-we-love css */}
                     <Grid container className='card-game-gap' sx={{ marginTop: "7%" }}>
                         <Grid xs={12} md={3} ></Grid>
@@ -226,11 +224,11 @@ export const Homes = (props) => {
                     <Grid container >
                         <Grid className="ellipse2" md={12} xs={12}>
 
-                            <Typography variant="h4" sx={{ textAlign: "center", padding: "3px",marginTop:"1%"}} className="h4-home">
+                            <Typography variant="h4" sx={{ textAlign: "center", padding: "3px", marginTop: "1%" }} className="h4-home">
                                 Win. Win. When you spend through SABER.
 
                             </Typography>
-                            <Box sx={{ textAlign: "center",marginBottom:"2%"  }}> <Typography variant="text"  >
+                            <Box sx={{ textAlign: "center", marginBottom: "2%" }}> <Typography variant="text"  >
                                 <span className='text-home' >
                                     Earn 4X reward points for gaming spends. Redeem for your favourite game currency and other cool merchandise.</span>
                             </Typography></Box>
@@ -337,12 +335,12 @@ export const Homes = (props) => {
                     </Grid>
 
                 </Box>
-               <Grid md={12} className="ellipse3" ></Grid>
+                <Grid md={12} className="ellipse3" ></Grid>
             </Box>
 
-            <Box sx={{ marginTop: "100%" }}>
+            <Box sx={{ backgroundColor:"rgba(34, 36, 39, 1)" }}>
 
-                <Grid className='play-grid-gap' sx={{ padding: "20px" }} container>
+                <Grid className='play-grid-gap' sx={{ padding: "5%" }} container>
                     <Grid md={1} ></Grid>
                     <Grid md={4} >
                         <Box >
@@ -382,13 +380,40 @@ export const Homes = (props) => {
 
 
 
-
-
-
-
-
-
             <Box>
+                <Box >
+                    <Grid container>
+                    <Grid md={1} xs={1}></Grid>
+                        <Grid md={12} xs={12}>
+
+                            <Typography variant="text">
+                                <span className="h4-home">
+                                Your questions, our answers.
+                                </span>
+
+                            </Typography>
+                        </Grid>
+
+                    </Grid>
+                    <Grid container>
+                    <Grid md={1} xs={1}></Grid>
+                        <Grid md={5} xs={12}>
+
+
+                        </Grid>
+
+                    </Grid>
+
+                </Box>
+            </Box>
+
+
+
+
+
+<Card/>
+
+            {/* <Box>
                 <Box sx={{ flexGrow: 1, padding: "9%", paddingTop: "20%", justifyContent: "center" }}>
                     <Grid container spacing={2}>
                         {slice.map((item, index) => {
@@ -417,7 +442,7 @@ export const Homes = (props) => {
                     </Grid>
                 </Box>
             </Box>
-            <Button variant="contained" onClick={() => Loadmore()}> Load more</Button>
+            <Button variant="contained" onClick={() => Loadmore()}> Load more</Button> */}
         </>
 
 
